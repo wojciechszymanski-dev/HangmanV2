@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\",
+  "WorkspaceRootPath": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\source\\repos\\hangmanv2\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\source\\repos\\hangmanv2\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\source\\repos\\hangmanv2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\endscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:endscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\endscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:endscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\source\\repos\\hangmanv2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|c:\\users\\wojci\\onedrive\\dokumenty\\github\\hangmanv2\\hangmanv2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E49AB98B-DE88-4B0F-AEDD-8673AD301586}|HangmanV2.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,41 +34,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "EndScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\EndScreen.xaml.cs",
+              "RelativeDocumentMoniker": "EndScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\EndScreen.xaml.cs",
+              "RelativeToolTip": "EndScreen.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T17:31:41.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\EndScreen.xaml",
+              "RelativeDocumentMoniker": "EndScreen.xaml",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\EndScreen.xaml",
+              "RelativeToolTip": "EndScreen.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-29T17:31:34.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GamePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\GamePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\GamePage.xaml.cs",
               "RelativeDocumentMoniker": "GamePage.xaml.cs",
-              "ToolTip": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\GamePage.xaml.cs",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\GamePage.xaml.cs",
               "RelativeToolTip": "GamePage.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowE0AAAANAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAASwGUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T15:11:40.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GamePage.xaml",
-              "DocumentMoniker": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\GamePage.xaml",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\GamePage.xaml",
               "RelativeDocumentMoniker": "GamePage.xaml",
-              "ToolTip": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\GamePage.xaml",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\GamePage.xaml",
               "RelativeToolTip": "GamePage.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAB9AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-28T15:11:25.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -69,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\wojci\\source\\repos\\HangmanV2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\wojci\\OneDrive\\Dokumenty\\GitHub\\HangmanV2\\HangmanV2\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCEAAAAxAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T12:59:23.591Z",
               "EditorCaption": ""

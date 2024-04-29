@@ -30,18 +30,6 @@ namespace HangmanV2
                     randomWord = jsonResponse;
 
                     await Navigation.PushAsync(new GamePage(randomWord));
-
-                    if (languageToggle.IsToggled)
-                    {
-                        //await DisplayAlert("Random Polish Word", randomWord, "OK");
-                        //await Navigation.PushAsync(new GamePage(randomWord));
-                    }
-                    else
-                    {
-
-                        //await DisplayAlert("Random English Word", randomWord, "OK");
-                        //await Navigation.PushAsync(new GamePage(randomWord));
-                    }
                 }
                 else
                 {

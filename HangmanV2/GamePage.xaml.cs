@@ -8,6 +8,7 @@ namespace HangmanV2
         private string word;
         Dictionary<string, Button> buttonList;
         private int mistakes = 0;
+        private string[] imgUrls;
 
         public GamePage(string word)
         {
@@ -24,6 +25,22 @@ namespace HangmanV2
                 new char[] { 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L' },
                 new char[] { 'Z', 'X', 'C', 'V', 'B', 'N', 'M' },
                 new char[] { 'Ś', 'Ć', 'Ę', 'Ą', 'Ó', 'Ż', 'Ź', 'Ł', 'Ń' }
+            };
+
+            imgUrls = new string[]
+            {
+                "https://imgur.com/kdOUako.png",
+                "https://imgur.com/cQwbZo9.png",
+                "https://imgur.com/iDjTM4X.png",
+                "https://imgur.com/Y7SaQbb.png",
+                "https://imgur.com/S0UlH91.png",
+                "https://imgur.com/bAdJg1V.png",
+                "https://imgur.com/wQGHALC.png",
+                "https://imgur.com/zU0g3IA.png",
+                "https://imgur.com/oUT5TYa.png",
+                "https://imgur.com/ZlJpkb3.png",
+                "https://imgur.com/l8uGH9i.png",
+                "https://imgur.com/wh23lQC.png"
             };
 
             for (int i = 0; i < word.Length; i++) {
@@ -52,7 +69,7 @@ namespace HangmanV2
             }
         }
 
-        private void ButtonClicked(object sender, EventArgs e)
+        private async void ButtonClicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             string letter = button.Text.ToLower();
@@ -79,14 +96,15 @@ namespace HangmanV2
                 if(buttonList[$"button{button.Text}"].IsEnabled)
                 {
                     buttonList[$"button{button.Text}"].Background = Colors.Red;
-                    if(mistakes < 12)
+                    if(mistakes < 11)
                     {
                         mistakes++;
-                        hangmanImg.Source = $"C:\\Users\\wojci\\source\\repos\\HangmanV2\\Resources\\Images\\hangman-images\\hangman_{mistakes}_image.png";
+                        hangmanImg.Source = imgUrls[mistakes];
                     }
                     else
                     {
-                        // przegrana
+                        await Navigation.PushAsync(new EndScreen(false));
+
                     }
                 } 
             }

@@ -34,8 +34,12 @@
             <Image x:Name="hangmanImg"
                    Grid.Row="2"
                    Grid.Column="1"
-                   Source="C:\\Users\\wojci\\source\\repos\\HangmanV2\\Resources\\Images\\hangman-images\\hangman_0_image.png"
-                   WidthRequest="300" />
+                   WidthRequest="300">
+                <Image.Source>
+                    <UriImageSource Uri="https://i.imgur.com/kdOUako.png" />
+                </Image.Source>
+            </Image>
+
 
             <Label x:Name="wordLengthIndicator"
                    Text=""
