@@ -2,12 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HangmanV2.EndScreen"
-             Title="EndScreen">
-    <VerticalStackLayout>
-        <Image x:Name="endScreenImg">
+             Title="EndScreen"
+             BackgroundColor="White">
+    <Grid>
+        <Image x:Name="endScreenImg" Aspect="AspectFit">
             <Image.Source>
                 <UriImageSource Uri="https://imgur.com/xNln2t5.png" />
             </Image.Source>
         </Image>
-    </VerticalStackLayout>
+
+        <ImageButton x:Name="goBackButton" WidthRequest="50" HeightRequest="50" BackgroundColor="BlueViolet" CornerRadius="12"
+                 HorizontalOptions="End" VerticalOptions="Center" Margin="0,0,10,0"/>
+    </Grid>
+
 </ContentPage>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HangmanV2.GamePage"
              Title="GamePage"
-             WidthRequest="900">
+             WidthRequest="800">
     <Grid x:Name="outerGrid" BackgroundColor="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="10"/>
@@ -51,6 +51,10 @@
                    VerticalTextAlignment="Center"/>
 
             <VerticalStackLayout x:Name="buttonKeyboard" HorizontalOptions="Center"/>
+
+            <ImageButton x:Name="goHomeButton" WidthRequest="50" HeightRequest="50" BackgroundColor="BlueViolet" CornerRadius="12"
+ HorizontalOptions="Center" VerticalOptions="End" Margin="0,50,0,0"/>
         </VerticalStackLayout>
+
     </Grid>
 </ContentPage>

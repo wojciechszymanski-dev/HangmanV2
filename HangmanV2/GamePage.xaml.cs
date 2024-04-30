@@ -9,6 +9,7 @@ namespace HangmanV2
         Dictionary<string, Button> buttonList;
         private int mistakes = 0;
         private string[] imgUrls;
+        bool isEnd = false;
 
         public GamePage(string word)
         {
@@ -67,6 +68,11 @@ namespace HangmanV2
                 }
                 buttonKeyboard.Add(buttonRow);
             }
+            string iconLink = "https://imgur.com/kMPYpaU.png";
+            goHomeButton.Source = iconLink;
+
+            goHomeButton.Clicked += async (sender, args) => await Navigation.PopAsync();
+            
         }
 
         private async void ButtonClicked(object sender, EventArgs e)
@@ -74,7 +80,10 @@ namespace HangmanV2
             Button button = (Button)sender;
             string letter = button.Text.ToLower();
             bool isLetterPresent = false;
+            bool[] result = new bool[] {true, false }; // win, lose
 
+            if (isEnd) return;
+             
             for (int i = 0; i < word.Length; i++)
             {
                 if (word[i] == letter[0])
@@ -86,7 +95,7 @@ namespace HangmanV2
 
                    
                     buttonList[$"button{button.Text}"].IsEnabled = false;
-                    buttonList[$"button{button.Text}"].Background = Colors.Lime;
+                    buttonList[$"button{button.Text}"].BackgroundColor = Colors.Lime;
 
                     isLetterPresent = true;
                 }
@@ -95,20 +104,47 @@ namespace HangmanV2
             {
                 if(buttonList[$"button{button.Text}"].IsEnabled)
                 {
-                    buttonList[$"button{button.Text}"].Background = Colors.Red;
-                    if(mistakes < 11)
+                    if (buttonList[$"button{button.Text}"].BackgroundColor != Colors.Red &&
+                        buttonList[$"button{button.Text}"].BackgroundColor != Colors.Lime)
                     {
-                        mistakes++;
-                        hangmanImg.Source = imgUrls[mistakes];
+                        buttonList[$"button{button.Text}"].BackgroundColor = Colors.Red; ;
+                        if (mistakes < 10)
+                        {
+                            mistakes++;
+                            hangmanImg.Source = imgUrls[mistakes];
+                        }
+                        else
+                        {
+                            hangmanImg.Source = imgUrls[imgUrls.Length - 1];
+                            isEnd = true;
+                            result[1] = true;
+                            CheckResult(false);
+                        }
                     }
-                    else
-                    {
-                        await Navigation.PushAsync(new EndScreen(false));
-
-                    }
+                    
                 } 
             }
             isLetterPresent = false;
+
+            for (int j = 0; j < wordLengthIndicator.Text.Length; j++)
+            {
+                if (wordLengthIndicator.Text[j] == '_')
+                {
+                    result[0] = false;
+                }
+            }
+            if (result[1] || result[0])
+            {
+                wordLengthIndicator.Text = string.Join(" ", word.ToCharArray());
+                isEnd = true;
+                if (result[0]) CheckResult(true);
+            }
+            
+        }
+
+        private async void CheckResult(bool result)
+        {
+            await Navigation.PushAsync(new EndScreen(result));
         }
     }
 }

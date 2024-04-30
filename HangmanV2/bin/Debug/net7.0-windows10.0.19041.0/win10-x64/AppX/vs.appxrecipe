@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-29T17:40:41.894</Modified>
+      <Modified>2024-04-30T03:43:59.346</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-29T17:40:41.738</Modified>
+      <Modified>2024-04-30T03:43:59.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HangmanV2.runtimeconfig.json">
       <PackagePath>HangmanV2.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HangmanV2.dll">
       <PackagePath>HangmanV2.dll</PackagePath>
-      <Modified>2024-04-29T17:40:41.201</Modified>
+      <Modified>2024-04-30T03:43:58.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HangmanV2.exe</PackagePath>
-      <Modified>2024-04-29T17:40:41.205</Modified>
+      <Modified>2024-04-30T03:43:58.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wojci\OneDrive\Dokumenty\GitHub\HangmanV2\HangmanV2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HangmanV2.deps.json">
       <PackagePath>HangmanV2.deps.json</PackagePath>
